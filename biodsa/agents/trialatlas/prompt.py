@@ -37,10 +37,6 @@ You have access to the following specialized sub-agents. Call them in the order 
 - When to use: Need clinical evidence, mechanism of action data, biomarker info, safety data
 - Input: Specific research questions or information needs
 
-**trial_outcome_prediction**: Predict trial success probability based on design and historical data
-- When to use: Final step to estimate likelihood of achieving endpoints
-- Input: Complete trial design with all assessment results
-
 ## Step 4: Synthesize and Conclude
 After all sub-agents complete their work:
 - Summarize key findings from each sub-agent
