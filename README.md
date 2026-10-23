@@ -7,8 +7,7 @@ protocol-level optimizations, and predicts regulatory success, grounding its rea
 evidence and regulatory precedent. This repository contains the TrialAtlas implementation and
 **TrialAtlasBench**, a benchmark built from FDA Complete Response Letters (CRLs).
 
-<!-- Add links once public -->
-<!-- [Paper](TODO) · [Dataset](https://huggingface.co/datasets/linjc16/trialatlasbench) -->
+[Paper](https://arxiv.org/pdf/2609.21859) · [Dataset](https://huggingface.co/datasets/linjc16/TrialAtlasBench)
 
 ## Overview
 
@@ -138,9 +137,11 @@ report the mean over questions. For Task 3, report balanced accuracy, F1, and Co
 
 ```bibtex
 @article{trialatlas,
-  title  = {TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization},
-  author = {Lin, Jiacheng and Wang, Zifeng and Chen, Zheng and Scott, Erick and Yang, Ziwei and Yu, Fanyang and Zhong, Sheng and Sun, Jimeng},
-  year   = {2026}
+  title   = {TrialAtlas: Multi-Agent Research Organization for Clinical Trial Design and Optimization},
+  author  = {Lin, Jiacheng and Wang, Zifeng and Chen, Zheng and Scott, Erick and Yang, Ziwei and Yu, Fanyang and Zhong, Sheng and Sun, Jimeng},
+  journal = {arXiv preprint arXiv:2609.21859},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2609.21859}
 }
 ```
 
