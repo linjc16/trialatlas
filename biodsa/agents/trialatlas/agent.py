@@ -321,7 +321,7 @@ class TrialAtlasAgent(BaseAgent):
 
         # Set default if not provided
         if modules is None:
-            modules = ["drug_benchmarking", "competing_trial_analysis", "literature_evidence", "trial_outcome_prediction"]
+            modules = ["drug_benchmarking", "competing_trial_analysis", "literature_evidence"]
 
         try:
             print("=" * 100)
